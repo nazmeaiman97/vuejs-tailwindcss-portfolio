@@ -7,7 +7,7 @@ const routes = [
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'Stoman - Home',
+			title: 'Nazme - Home',
 		},
 	},
 	{
@@ -19,7 +19,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "about" */ '../views/About.vue'),
 		meta: {
-			title: 'Stoman - About',
+			title: 'Nazme - About',
 		},
 	},
 	{
@@ -31,11 +31,11 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Projects.vue'),
 		meta: {
-			title: 'Stoman - Projects',
+			title: 'Nazme - Projects',
 		},
 	},
 	{
-		path: '/projects/single-project',
+		path: '/projects/single-project/:id',
 		name: 'Single Project',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route
@@ -45,7 +45,7 @@ const routes = [
 				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
 			),
 		meta: {
-			title: 'Stoman - Single Project',
+			title: 'Nazme - Single Project',
 		},
 	},
 	{
@@ -57,7 +57,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Contact.vue'),
 		meta: {
-			title: 'Stoman - Contact',
+			title: 'Nazme - Contact',
 		},
 	},
 ];
@@ -74,7 +74,6 @@ export default router;
 
 /**
  * Below code will display the component/active page title
- * Powered by: Nangialai Stoman
  */
 
 // This callback runs before every route change, including on page load.

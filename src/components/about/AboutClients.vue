@@ -7,47 +7,47 @@ export default {
 	},
 	data: () => {
 		return {
-			clientsHeading: 'Some of the brands I have worked with',
+			clientsHeading: 'Some of the frameworks/libraries I have experienced with',
 			clients: [
 				{
 					id: 1,
-					title: 'Amazon',
-					img: require('@/assets/images/brands/amazon_gray.png'),
+					title: 'Laravel',
+					img: 'https://laravel.com/img/logotype.min.svg',
 				},
 				{
 					id: 2,
-					title: 'Sony',
-					img: require('@/assets/images/brands/sony_gray.png'),
+					title: 'JQuery',
+					img: 'https://upload.wikimedia.org/wikipedia/commons/f/fd/JQuery-Logo.svg',
 				},
 				{
 					id: 3,
-					title: 'Adidas',
-					img: require('@/assets/images/brands/adidas_gray.png'),
+					title: 'Vue js',
+					img: 'https://seeklogo.com/images/V/vuejs-logo-17D586B587-seeklogo.com.png',
 				},
 				{
 					id: 4,
-					title: 'FILA',
-					img: require('@/assets/images/brands/fila_gray.png'),
+					title: 'React Native',
+					img: 'https://seeklogo.com/images/R/react-native-logo-221C671C70-seeklogo.com.png',
 				},
 				{
 					id: 5,
-					title: 'NB',
-					img: require('@/assets/images/brands/nb_gray.png'),
+					title: 'Tailwind',
+					img: 'https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png',
 				},
 				{
 					id: 6,
-					title: 'SAMSUNG',
-					img: require('@/assets/images/brands/samsung_gray.png'),
+					title: 'Vuetify',
+					img: 'https://iconape.com/wp-content/png_logo_vector/vuetify-logo.png',
 				},
 				{
 					id: 7,
-					title: 'CANON',
-					img: require('@/assets/images/brands/canon_gray.png'),
+					title: 'Quasar',
+					img: 'https://camo.githubusercontent.com/44def50d1ff358d19bafe61e56fe9ff486fdf9d3b3a41a90417183a6ff4b097e/68747470733a2f2f63646e2e7261776769742e636f6d2f7175617361726672616d65776f726b2f7175617361722d6172742f38363363313462642f646973742f7376672f7175617361722d6c6f676f2d66756c6c2d696e6c696e652e737667',
 				},
 				{
 					id: 7,
-					title: 'PUMA',
-					img: require('@/assets/images/brands/puma_gray.png'),
+					title: 'Capacitor',
+					img: 'https://ionic.zone/capacitor/images/capacitor-logo.jpg',
 				},
 			],
 		};
