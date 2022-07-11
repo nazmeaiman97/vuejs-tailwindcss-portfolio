@@ -37,7 +37,10 @@ export default {
 </script>
 
 <template>
-  <div class="container mx-auto mt-10 sm:mt-20">
+  <div
+    class="container mx-auto mt-10 sm:mt-20"
+    style="text-align: -webkit-center"
+  >
     <!-- Project header -->
     <ProjectHeader
       :singleProjectHeader="filterProject[0].singleProjectHeader"
