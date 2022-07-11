@@ -11,7 +11,7 @@ export default {
   },
   methods: {
     sendEmail() {
-      let email = "nazmeaimanwork@gmail.com";
+      let email = "nazmeaimanyunus@gmail.com";
       window.open(
         `mailto:${email}?subject=${this.subject}&body=${this.message}`
       );
