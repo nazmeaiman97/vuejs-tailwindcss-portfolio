@@ -68,7 +68,7 @@ export default {
       <div class="flex justify-center sm:block">
         <a
           download="Nazme-Resume.pdf"
-          href="/files/Stoman-Resume.pdf"
+          href="/files/Nazme-Resume.pdf"
           class="
             flex
             justify-center
