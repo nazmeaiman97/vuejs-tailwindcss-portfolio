@@ -27,7 +27,7 @@ export default {
     "
     aria-label="Single Project"
   >
-    <div>
+    <div style="text-align: -webkit-center">
       <img
         :src="project.img"
         :alt="project.title"
