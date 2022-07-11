@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     sendEmail() {
-      let email = "nazmeaimanwork@gmail.com";
+      let email = "nazmeaimanyunus@gmail.com";
       window.open(
         `mailto:${email}?subject=Job Request (${this.category})&body=${this.projectDescription}`
       );
