@@ -5,7 +5,7 @@ export default {
       bios: [
         {
           id: 1,
-          bio: "Good day, my name is Nazme Aiman bin Yunus, 26 years old (1997), a full stack engineer who is currently a freelancer. I have a diploma in Computer Science and a Bachelor’s Degree of Information Technology majoring in Business Computing. I have 3 years of experiences in sofware engineering field. ",
+          bio: "Good day, my name is Nazme Aiman bin Yunus, 26 years old (1997), a full stack engineer who is currently a freelancer. I have a diploma in Computer Science, a Bachelor’s Degree of Information Technology majoring in Business Computing and 3 years of experiences in sofware engineering field. ",
         },
       ],
     };
