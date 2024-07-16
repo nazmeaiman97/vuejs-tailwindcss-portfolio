@@ -3,9 +3,6 @@ export default {
   props: ["project"],
   computed: {
     link() {
-      if (this.project.id == "3") {
-        return "/projects";
-      }
       return `/projects/single-project/${this.project.id}`;
     },
   },
@@ -13,9 +10,7 @@ export default {
 </script>
 
 <template>
-  <router-link
-    :to="link"
-    class="
+  <router-link :to="link" class="
       rounded-xl
       shadow-lg
       hover:shadow-xl
@@ -24,36 +19,25 @@ export default {
       sm:mb-0
       bg-secondary-light
       dark:bg-ternary-dark
-    "
-    aria-label="Single Project"
-  >
+    " aria-label="Single Project">
     <div style="text-align: -webkit-center">
-      <img
-        :src="project.img"
-        :alt="project.title"
-        class="rounded-t-xl border-none object-cover h-80 w-100"
-      />
+      <img :src="project.img" :alt="project.title" class="rounded-t-xl border-none object-cover h-80 w-100" />
     </div>
     <div class="text-center px-4 py-6">
-      <p
-        class="
+      <p class="
           font-general-semibold
           text-xl text-ternary-dark
           dark:text-ternary-light
           font-semibold
           mb-2
-        "
-      >
+        ">
         {{ project.title }}
       </p>
-      <span
-        class="
+      <span class="
           font-general-medium
           text-lg text-ternary-dark
           dark:text-ternary-light
-        "
-        >{{ project.category }}</span
-      >
+        ">{{ project.category }}</span>
     </div>
   </router-link>
 </template>
